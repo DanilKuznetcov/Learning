@@ -1,0 +1,137 @@
+[I 00:53:47.881 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 00:53:47.881 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 00:53:47.881 NotebookApp] http://localhost:8888/?token=7e2b8602c0c46a61e3fb7e4ee6c26b216695ed7df1affe61
+[I 00:53:47.881 NotebookApp]  or http://127.0.0.1:8888/?token=7e2b8602c0c46a61e3fb7e4ee6c26b216695ed7df1affe61
+[I 00:53:47.881 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 00:53:47.901 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-10248-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=7e2b8602c0c46a61e3fb7e4ee6c26b216695ed7df1affe61
+     or http://127.0.0.1:8888/?token=7e2b8602c0c46a61e3fb7e4ee6c26b216695ed7df1affe61
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 00:54:58.099 NotebookApp] delete /DataScience/LinearModels/a.out
+[W 00:54:58.129 NotebookApp] delete /DataScience/LinearModels/nohup.out
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7ff067d80460>(<Future finis...ea2"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7ff067d80460>(<Future finis...ea2"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-12' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...4ea2"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-1' coro=<MultiKernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py:186>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7ff0669e0a90>(<Future finis...ea2"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7ff0669e0a90>(<Future finis...ea2"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-2' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /nbexte...4ea2"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7ff067f272b0>(<Future finis... GMT\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7ff067f272b0>(<Future finis... GMT\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /static...6 GMT\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-1' coro=<MultiKernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py:186>> is being executed.
+[I 00:55:00.445 NotebookApp] Kernel started: 9b831c9b-8ef6-4dd9-943f-3e32d85f5efa, name: python3
+[W 00:55:32.074 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116005347 (127.0.0.1) 9.550000ms referer=http://localhost:8888/notebooks/DataScience/LinearModels/LinearModels.ipynb
+[I 00:57:00.466 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 00:59:00.469 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:01:00.455 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:03:00.458 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:05:00.456 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:07:00.455 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:09:00.457 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:11:00.458 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:13:00.440 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:15:00.465 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:17:00.461 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:19:00.460 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:21:00.465 NotebookApp] Saving file at /DataScience/LinearModels/LinearModels.ipynb
+[I 01:21:58.035 NotebookApp] The port 8888 is already in use, trying another port.
+[I 01:21:58.036 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 01:21:58.036 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 01:21:58.036 NotebookApp] http://localhost:8889/?token=97df0751a228c5e747362c4e5ddb46c35c1c6b900a5a7383
+[I 01:21:58.036 NotebookApp]  or http://127.0.0.1:8889/?token=97df0751a228c5e747362c4e5ddb46c35c1c6b900a5a7383
+[I 01:21:58.036 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 01:21:58.056 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-11569-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=97df0751a228c5e747362c4e5ddb46c35c1c6b900a5a7383
+     or http://127.0.0.1:8889/?token=97df0751a228c5e747362c4e5ddb46c35c1c6b900a5a7383
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 01:22:10.059 NotebookApp] Creating new notebook in /DataScience/LinearModels
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f49660b8a90>(<Future finis...3d6"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f49660b8a90>(<Future finis...3d6"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...53d6"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:336>> is being executed.
+[I 01:22:11.581 NotebookApp] Kernel started: 555b296f-e002-4133-819c-8c8cc1a61f81, name: python3
+[W 01:22:11.595 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116012157 (127.0.0.1) 11.370000ms referer=http://localhost:8889/notebooks/DataScience/LinearModels/Untitled.ipynb?kernel_name=python3
+[I 01:23:01.076 NotebookApp] Saving file at /DataScience/LinearModels/Regression task.ipynb
+[W 01:23:06.644 NotebookApp] Notebook DataScience/LinearModels/Regression task.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f4962ec3700>(<Future finis...3d6"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f4962ec3700>(<Future finis...3d6"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-7' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...53d6"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-63' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 01:23:07.072 NotebookApp] Kernel started: f3496f14-ce7a-45f0-aee1-00467fc29af9, name: python3
+[W 01:23:07.221 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116012157 (127.0.0.1) 3.680000ms referer=http://localhost:8889/notebooks/DataScience/LinearModels/Regression%20task.ipynb
+[I 01:24:11.611 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[I 01:26:11.597 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[I 01:28:11.596 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[I 01:30:11.575 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[I 01:32:11.598 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[W 01:33:01.996 NotebookApp] Notebook DataScience/LinearModels/CourseraTask/task-3.1.ipynb is not trusted
+[I 01:33:02.284 NotebookApp] Kernel started: b11f7ae8-17c0-4eda-8e28-828cb5f5929a, name: python3
+[W 01:33:02.343 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116012157 (127.0.0.1) 3.540000ms referer=http://localhost:8889/notebooks/DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:35:02.317 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:39:02.300 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:41:03.114 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:43:02.301 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:45:03.093 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:46:11.599 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 01:46:11.622 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '4a17d008'.
+[I 01:48:12.098 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 01:48:12.124 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '7eeb5f27'.
+[I 01:49:02.302 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:50:32.294 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 01:50:32.532 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to 'c7d00b36'.
+[I 01:50:33.694 NotebookApp] Saving file at /DataScience/LinearModels/Regression task.ipynb
+[W 01:50:33.694 NotebookApp] Notebook DataScience/LinearModels/Regression task.ipynb is not trusted
+[I 01:50:52.524 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 01:50:52.658 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to 'da90e474'.
+[I 01:51:03.099 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:51:07.773 NotebookApp] Starting buffering for 555b296f-e002-4133-819c-8c8cc1a61f81:05a8633a6e4e415586576d19b1a79daa
+[I 01:51:08.211 NotebookApp] Kernel restarted: 555b296f-e002-4133-819c-8c8cc1a61f81
+[I 01:51:08.231 NotebookApp] Restoring connection for 555b296f-e002-4133-819c-8c8cc1a61f81:05a8633a6e4e415586576d19b1a79daa
+[I 01:51:08.910 NotebookApp] Replaying 3 buffered messages
+[I 01:52:12.088 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 01:52:12.593 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to 'e058d993'.
+[I 01:53:02.313 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:55:03.099 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:57:02.282 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 01:59:02.289 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:01:02.300 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:03:02.301 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:05:02.302 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:07:03.099 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:09:02.301 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:11:02.304 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[W 02:12:25.258 NotebookApp] Notebook DataScience/LinearModels/CourseraTask/task-3.1-solution.ipynb is not trusted
+[I 02:12:25.536 NotebookApp] Kernel started: c6566347-ec9a-4dbb-b83b-956649fd8e07, name: python3
+[W 02:12:25.589 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116012157 (127.0.0.1) 2.490000ms referer=http://localhost:8889/notebooks/DataScience/LinearModels/CourseraTask/task-3.1-solution.ipynb
+[I 02:13:01.864 NotebookApp] Starting buffering for c6566347-ec9a-4dbb-b83b-956649fd8e07:8641f5be201a446f90792935a0927371
+[I 02:13:02.407 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:13:34.140 NotebookApp] Saving file at /DataScience/LinearModels/CourseraTask/task-3.1.ipynb
+[I 02:13:35.269 NotebookApp] Saving file at /DataScience/LinearModels/Regression task.ipynb
+[W 02:13:35.269 NotebookApp] Notebook DataScience/LinearModels/Regression task.ipynb is not trusted
+[I 02:13:36.288 NotebookApp] Saving file at /DataScience/LinearModels/Classification task.ipynb
+[E 02:13:36.302 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to 'ebc74d04'.
+[I 02:13:38.959 NotebookApp] Starting buffering for b11f7ae8-17c0-4eda-8e28-828cb5f5929a:f0671c2fd98b47158a82deb575ea29cf
+[I 02:13:39.201 NotebookApp] Starting buffering for f3496f14-ce7a-45f0-aee1-00467fc29af9:778ca53cee5646c3811b3c3ff337f0d8
+[I 02:13:39.492 NotebookApp] Starting buffering for 555b296f-e002-4133-819c-8c8cc1a61f81:05a8633a6e4e415586576d19b1a79daa
