@@ -135,3 +135,141 @@ RuntimeError: Cannot enter into task <Task pending name='Task-7' coro=<HTTP1Serv
 [I 02:13:38.959 NotebookApp] Starting buffering for b11f7ae8-17c0-4eda-8e28-828cb5f5929a:f0671c2fd98b47158a82deb575ea29cf
 [I 02:13:39.201 NotebookApp] Starting buffering for f3496f14-ce7a-45f0-aee1-00467fc29af9:778ca53cee5646c3811b3c3ff337f0d8
 [I 02:13:39.492 NotebookApp] Starting buffering for 555b296f-e002-4133-819c-8c8cc1a61f81:05a8633a6e4e415586576d19b1a79daa
+[I 02:15:50.814 NotebookApp] Starting buffering for 9b831c9b-8ef6-4dd9-943f-3e32d85f5efa:0fcc0231b3b94696a7427c3f55093882
+[I 11:33:21.558 NotebookApp] The port 8888 is already in use, trying another port.
+[I 11:33:21.558 NotebookApp] The port 8889 is already in use, trying another port.
+[I 11:33:21.559 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 11:33:21.559 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 11:33:21.559 NotebookApp] http://localhost:8890/?token=360020995b5f71c72fd831680941d1be776e7f7b124e4296
+[I 11:33:21.559 NotebookApp]  or http://127.0.0.1:8890/?token=360020995b5f71c72fd831680941d1be776e7f7b124e4296
+[I 11:33:21.559 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:33:21.579 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-20340-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=360020995b5f71c72fd831680941d1be776e7f7b124e4296
+     or http://127.0.0.1:8890/?token=360020995b5f71c72fd831680941d1be776e7f7b124e4296
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 11:33:50.889 NotebookApp] Creating new directory in /DataScience
+[I 11:34:22.566 NotebookApp] Creating new notebook in /DataScience/MetricsOfModel
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7fc02fc13f10>(<Future finis...2fe"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7fc02fc13f10>(<Future finis...2fe"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...e2fe"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:336>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7fc02f03df10>(<Future finis...2fe"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7fc02f03df10>(<Future finis...2fe"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-7' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /kernel...e2fe"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 11:34:23.923 NotebookApp] Kernel started: 84dd8017-b865-43c9-80c0-efab778bf3fa, name: python3
+[W 11:34:23.936 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 9.910000ms referer=http://localhost:8890/notebooks/DataScience/MetricsOfModel/Untitled.ipynb?kernel_name=python3
+[I 11:36:23.933 NotebookApp] Saving file at /DataScience/MetricsOfModel/Untitled.ipynb
+[E 11:37:15.995 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '03cfa8da'.
+[W 11:37:15.996 NotebookApp] Notebook DataScience/LinearModels/Classification task.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7fc02f001c40>(<Future finis...2fe"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7fc02f001c40>(<Future finis...2fe"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-2' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...e2fe"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-114' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 11:37:16.344 NotebookApp] Kernel started: 7c4a580b-c45e-460c-b2a9-710c99fb481c, name: python3
+[W 11:37:16.443 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 3.550000ms referer=http://localhost:8890/notebooks/DataScience/LinearModels/Classification%20task.ipynb
+[I 11:37:26.155 NotebookApp] Starting buffering for 7c4a580b-c45e-460c-b2a9-710c99fb481c:befba7a5435d4f1389f57404c6f289bd
+[I 11:38:23.934 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:40:23.914 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:42:23.935 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[E 11:42:40.209 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '95dddae3'.
+[W 11:42:40.210 NotebookApp] Notebook DataScience/LinearModels/Classification task.ipynb is not trusted
+[W 11:42:40.663 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 2.460000ms referer=http://localhost:8890/notebooks/DataScience/LinearModels/Classification%20task.ipynb
+[I 11:42:45.535 NotebookApp] Starting buffering for 7c4a580b-c45e-460c-b2a9-710c99fb481c:d05dead1d3564a628410d24db6da4bcb
+[I 11:44:23.935 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[E 11:44:23.952 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '4f15a9de'.
+[I 11:44:38.347 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[E 11:44:38.355 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '01dbf67e'.
+[I 11:44:40.732 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[E 11:44:40.752 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '99b04450'.
+[I 11:44:45.660 NotebookApp] Starting buffering for 84dd8017-b865-43c9-80c0-efab778bf3fa:8a43d3aeda654d899966d4a7064d8f24
+[E 11:44:46.054 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '8ccd6b86'.
+[W 11:44:46.055 NotebookApp] Notebook DataScience/MetricsOfModel/UsingOfMetrics.ipynb is not trusted
+[W 11:44:46.280 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 3.110000ms referer=http://localhost:8890/notebooks/DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:44:48.317 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:46:46.270 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:48:46.241 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:50:46.232 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:52:46.254 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:56:46.241 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 11:58:42.693 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:00:46.254 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:01:32.591 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[E 12:01:32.682 NotebookApp] Notebook JSON is invalid: Non-unique cell id '8ccd6b86' detected. Corrected to '3ee17608'.
+[I 12:01:51.069 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:02:13.897 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:02:17.161 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:02:46.263 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 12:04:46.678 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[W 12:07:57.633 NotebookApp] Notebook DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb is not trusted
+[I 12:07:58.244 NotebookApp] Kernel started: 39e4e0ac-2728-4d83-a128-13566fbeddd5, name: python3
+[W 12:07:58.334 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 3.760000ms referer=http://localhost:8890/notebooks/DataScience/MetricsOfModel/CourseraTask/regularization%20task.ipynb
+[I 12:09:58.250 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:13:58.276 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:15:58.259 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:17:58.259 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:21:58.259 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:23:58.258 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 12:25:58.680 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[W 12:37:57.199 NotebookApp] Notebook DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb is not trusted
+[I 12:37:57.597 NotebookApp] Kernel started: a22cf079-68c5-43ae-afb1-45ca9ccb5d77, name: python3
+[W 12:37:57.682 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 4.100000ms referer=http://localhost:8890/notebooks/DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:39:57.617 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:41:57.595 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:43:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:45:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:47:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:49:57.614 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:51:57.615 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 12:53:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[W 12:55:41.179 NotebookApp] Notebook DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb is not trusted
+[I 12:55:41.568 NotebookApp] Kernel started: c3c42693-3544-4613-aa3d-48194302a865, name: python3
+[W 12:55:41.637 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221116113321 (127.0.0.1) 4.130000ms referer=http://localhost:8890/notebooks/DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[I 12:56:17.939 NotebookApp] Starting buffering for c3c42693-3544-4613-aa3d-48194302a865:312264de66204c8281df22695ac885a2
+[I 12:56:18.177 NotebookApp] Kernel restarted: c3c42693-3544-4613-aa3d-48194302a865
+[I 12:56:18.198 NotebookApp] Restoring connection for c3c42693-3544-4613-aa3d-48194302a865:312264de66204c8281df22695ac885a2
+[I 12:56:19.211 NotebookApp] Replaying 3 buffered messages
+[I 12:57:41.582 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[I 12:59:57.609 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:01:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:03:57.612 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:05:57.600 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:07:57.611 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:09:57.610 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:11:57.680 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:12:58.776 NotebookApp] Starting buffering for c3c42693-3544-4613-aa3d-48194302a865:312264de66204c8281df22695ac885a2
+[I 13:12:59.115 NotebookApp] Kernel restarted: c3c42693-3544-4613-aa3d-48194302a865
+[I 13:12:59.135 NotebookApp] Restoring connection for c3c42693-3544-4613-aa3d-48194302a865:312264de66204c8281df22695ac885a2
+[I 13:13:00.149 NotebookApp] Replaying 3 buffered messages
+[I 13:13:23.962 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[I 13:13:25.028 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[I 13:13:25.919 NotebookApp] Starting buffering for c3c42693-3544-4613-aa3d-48194302a865:312264de66204c8281df22695ac885a2
+[I 13:13:27.126 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2.ipynb
+[I 13:13:27.849 NotebookApp] Starting buffering for a22cf079-68c5-43ae-afb1-45ca9ccb5d77:8103bb8e41664f0a9aad82b49fdf76ba
+[I 13:13:28.286 NotebookApp] Saving file at /DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 13:13:28.842 NotebookApp] Starting buffering for 84dd8017-b865-43c9-80c0-efab778bf3fa:b988fa58db55474c9b7280091bda1aa9
+[I 13:13:29.282 NotebookApp] Saving file at /DataScience/MetricsOfModel/CourseraTask/regularization task.ipynb
+[I 13:13:29.762 NotebookApp] Starting buffering for 39e4e0ac-2728-4d83-a128-13566fbeddd5:68baf0bf63be484c892c657bca52dc69
+[I 12:37:17.557 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 12:37:17.558 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 12:37:17.558 NotebookApp] http://localhost:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
+[I 12:37:17.558 NotebookApp]  or http://127.0.0.1:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
+[I 12:37:17.558 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:37:17.588 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-4812-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
+     or http://127.0.0.1:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
