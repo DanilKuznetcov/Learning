@@ -273,3 +273,160 @@ RuntimeError: Cannot enter into task <Task pending name='Task-2' coro=<HTTP1Serv
     Or copy and paste one of these URLs:
         http://localhost:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
      or http://127.0.0.1:8888/?token=007c6998d323eb754b2d541462a7f9f4858dadf883c6437a
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 13:46:14.610 NotebookApp] Creating new directory in /DataScience
+[I 13:47:24.872 NotebookApp] Creating new notebook in /DataScience/EnsembleModels
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7efdd80f8640>(<Future finis...f7e"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7efdd80f8640>(<Future finis...f7e"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-62' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...af7e"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:336>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7efdd8aee6a0>(<Future finis...f7e"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7efdd8aee6a0>(<Future finis...f7e"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-83' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /kernel...af7e"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7efdd80f8040>(<Future finis...f7e"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7efdd80f8040>(<Future finis...f7e"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-85' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /nbexte...af7e"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-97' coro=<MappingKernelManager.start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> is being executed.
+[I 13:47:26.379 NotebookApp] Kernel started: dde38265-2e89-46fc-95fc-afc130dc195a, name: python3
+[E 13:48:04.052 NotebookApp] Notebook JSON is invalid: Non-unique cell id 'd3a4c6c6' detected. Corrected to '5853d4f5'.
+[W 13:48:04.054 NotebookApp] Notebook DataScience/LinearModels/Classification task.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7efdd8c99bb0>(<Future finis...f7e"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7efdd8c99bb0>(<Future finis...f7e"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-57' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...af7e"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-53' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 13:48:04.441 NotebookApp] Kernel started: 53faea53-9331-4cf7-82c2-970bb61b0315, name: python3
+[I 13:48:08.525 NotebookApp] Starting buffering for 53faea53-9331-4cf7-82c2-970bb61b0315:e0bb3d509b6345bf93dd8581a8e26d5b
+[I 13:49:26.595 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 13:51:26.579 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 13:53:26.590 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 13:55:26.590 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 13:59:26.570 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 14:01:26.591 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 14:03:26.395 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 14:05:26.590 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 14:06:42.780 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 14:07:34.662 NotebookApp] Starting buffering for dde38265-2e89-46fc-95fc-afc130dc195a:80014da9aa3b46159956c87a4abdb8cf
+[I 09:47:36.662 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 09:47:36.662 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 09:47:36.662 NotebookApp] http://localhost:8888/?token=609c0049f28b26117ab4391bcb354aca3054fa24f8f07feb
+[I 09:47:36.662 NotebookApp]  or http://127.0.0.1:8888/?token=609c0049f28b26117ab4391bcb354aca3054fa24f8f07feb
+[I 09:47:36.662 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:47:36.687 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-4900-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=609c0049f28b26117ab4391bcb354aca3054fa24f8f07feb
+     or http://127.0.0.1:8888/?token=609c0049f28b26117ab4391bcb354aca3054fa24f8f07feb
+[I 09:47:54.947 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:47:54.948 NotebookApp] Serving notebooks from local directory: /home/danil/Documents/Learning
+[I 09:47:54.948 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 09:47:54.948 NotebookApp] http://localhost:8889/?token=ead333178d7922419e7de2c698d79688c6202fe4ec4707fb
+[I 09:47:54.948 NotebookApp]  or http://127.0.0.1:8889/?token=ead333178d7922419e7de2c698d79688c6202fe4ec4707fb
+[I 09:47:54.948 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:47:54.971 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/danil/.local/share/jupyter/runtime/nbserver-5072-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=ead333178d7922419e7de2c698d79688c6202fe4ec4707fb
+     or http://127.0.0.1:8889/?token=ead333178d7922419e7de2c698d79688c6202fe4ec4707fb
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 09:48:10.017 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f4025cd0a60>(<Future finis...464"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f4025cd0a60>(<Future finis...464"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-7' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...e464"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:336>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f40264f2670>(<Future finis...464"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f40264f2670>(<Future finis...464"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-5' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /kernel...e464"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 09:48:10.247 NotebookApp] Kernel started: f95b2809-d64d-4498-967b-e7361a7d94db, name: python3
+[W 09:48:10.307 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 10.810000ms referer=http://localhost:8889/notebooks/DataScience/EnsembleModels/EnsembleModels.ipynb
+[I 09:49:29.173 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[W 09:49:29.174 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+[I 09:50:10.247 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[W 09:50:10.248 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+[I 09:50:13.880 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[W 09:50:13.880 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+[I 09:52:10.276 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[W 09:52:10.276 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+[W 09:53:38.886 NotebookApp] Notebook DataScience/EnsembleModels/task-3.3.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f4028141d30>(<Future finis...464"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f4028141d30>(<Future finis...464"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...e464"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-168' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 09:53:39.244 NotebookApp] Kernel started: 5ee742b6-3ea2-4766-9480-29b9f0eb613c, name: python3
+[W 09:53:39.314 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 3.220000ms referer=http://localhost:8889/notebooks/DataScience/EnsembleModels/task-3.3.ipynb
+[I 09:54:10.675 NotebookApp] Saving file at /DataScience/EnsembleModels/EnsembleModels.ipynb
+[W 09:54:10.676 NotebookApp] Notebook DataScience/EnsembleModels/EnsembleModels.ipynb is not trusted
+[W 09:55:08.422 NotebookApp] Notebook DataScience/MetricsOfModel/UsingOfMetrics.ipynb is not trusted
+[I 09:55:08.824 NotebookApp] Kernel started: 78198fcd-0d15-4d4c-947e-f7e075d3d1c2, name: python3
+[W 09:55:09.665 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 6.510000ms referer=http://localhost:8889/notebooks/DataScience/MetricsOfModel/UsingOfMetrics.ipynb
+[I 09:55:39.705 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 09:55:59.509 NotebookApp] Kernel started: c62681f7-3575-4658-ba31-206333187194, name: python3
+[W 09:55:59.591 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 5.020000ms referer=http://localhost:8889/notebooks/DataScience/MetricsOfModel/CourseraTask/regularization%20task.ipynb
+[I 09:56:09.029 NotebookApp] Starting buffering for c62681f7-3575-4658-ba31-206333187194:20f45c2ce19047478c91e8596265311a
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f4025070d30>(<Future finis...464"\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f4025070d30>(<Future finis...464"\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-8' coro=<HTTP1ServerConnection._server_request_loop() running at /home/danil/.local/lib/python3.8/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...e464"\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/danil/.local/lib/python3.8/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-440' coro=<KernelManager._async_start_kernel() running at /home/danil/.local/lib/python3.8/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 09:56:13.030 NotebookApp] Kernel started: c85e6e64-4cb6-4865-a339-9662ca903796, name: python3
+[W 09:56:13.109 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 3.760000ms referer=http://localhost:8889/notebooks/DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[I 09:56:26.571 NotebookApp] Starting buffering for 78198fcd-0d15-4d4c-947e-f7e075d3d1c2:813c8c2ca1484d9d80488e730dd226a8
+[I 09:57:39.269 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 09:59:39.261 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:01:39.261 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:03:39.262 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:09:39.259 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:11:39.263 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:13:39.681 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[W 10:13:47.923 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 3.030000ms referer=http://localhost:8889/notebooks/DataScience/MetricsOfModel/CourseraTask/Metrics/task-3.2.2-solution.ipynb
+[W 10:14:08.272 NotebookApp] Notebook DataScience/EnsembleModels/task-3.3-solution.ipynb is not trusted
+[I 10:14:08.629 NotebookApp] Kernel started: 5f953c23-37a3-4180-9fac-d99238311f94, name: python3
+[W 10:14:08.687 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20221128094754 (127.0.0.1) 2.920000ms referer=http://localhost:8889/notebooks/DataScience/EnsembleModels/task-3.3-solution.ipynb
+[I 10:16:08.685 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3-solution.ipynb
+[I 10:17:39.258 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:19:39.684 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:20:08.659 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3-solution.ipynb
+[I 10:21:39.681 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:23:39.261 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:29:39.260 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:30:53.686 NotebookApp] Starting buffering for 5f953c23-37a3-4180-9fac-d99238311f94:add704672c0f4acaad99e8b8272b20ce
+[I 10:30:54.124 NotebookApp] Kernel restarted: 5f953c23-37a3-4180-9fac-d99238311f94
+[I 10:30:54.147 NotebookApp] Restoring connection for 5f953c23-37a3-4180-9fac-d99238311f94:add704672c0f4acaad99e8b8272b20ce
+[I 10:30:54.692 NotebookApp] Replaying 3 buffered messages
+[I 10:31:38.889 NotebookApp] Starting buffering for 5f953c23-37a3-4180-9fac-d99238311f94:add704672c0f4acaad99e8b8272b20ce
+[I 10:31:39.213 NotebookApp] Kernel restarted: 5f953c23-37a3-4180-9fac-d99238311f94
+[I 10:31:39.236 NotebookApp] Restoring connection for 5f953c23-37a3-4180-9fac-d99238311f94:add704672c0f4acaad99e8b8272b20ce
+[I 10:31:39.663 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3.ipynb
+[I 10:31:39.837 NotebookApp] Replaying 3 buffered messages
+[I 10:32:08.701 NotebookApp] Saving file at /DataScience/EnsembleModels/task-3.3-solution.ipynb
+/usr/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[C 11:30:13.572 NotebookApp] received signal 15, stopping
+[I 11:30:13.572 NotebookApp] Shutting down 0 kernels
+[I 11:30:13.574 NotebookApp] Shutting down 0 terminals
+[I 11:30:13.682 NotebookApp] Starting buffering for 5ee742b6-3ea2-4766-9480-29b9f0eb613c:888459bb8eea4f87a18554dd6c253061
+[I 11:30:13.684 NotebookApp] Starting buffering for f95b2809-d64d-4498-967b-e7361a7d94db:08a0811a04ea43fc9d7950dd297238db
+[I 11:30:13.693 NotebookApp] Starting buffering for 5f953c23-37a3-4180-9fac-d99238311f94:add704672c0f4acaad99e8b8272b20ce
+[I 11:30:13.700 NotebookApp] Starting buffering for c85e6e64-4cb6-4865-a339-9662ca903796:9175b765269243ceba66dab132cfcace
